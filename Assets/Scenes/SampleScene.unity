@@ -236,61 +236,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 330818089}
   m_CullTransparentMesh: 0
---- !u!1 &357824739
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 357824741}
-  - component: {fileID: 357824740}
-  m_Layer: 0
-  m_Name: EZAds
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &357824740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 357824739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a027c20c2218822488e1e1b9d8fa3df7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Android:
-    Admob:
-      AppId: ca-app-pub-7921597124175429~7131310992
-      BannerId: ca-app-pub-7921597124175429/8608044192
-      InterstitialId: ca-app-pub-7921597124175429/5915479396
-      RewardedVideoId: ca-app-pub-7921597124175429/6554607798
-    Chartboost:
-      AppId: 5947133e43150f53a1a48883
-      Signature: 62f90cf2cdb4ac53f36f183cbb0de76ca7a40051
-    Facebook:
-      Banner: 273663506802916_273663780136222
-      Interstitial: 289750988489989_289751121823309
-      RewardedVideo: 
-    Unity:
-      AppId: 1452709
---- !u!4 &357824741
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 357824739}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &476260901
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,6 +1467,48 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1514753283}
   m_CullTransparentMesh: 0
+--- !u!1001 &1597841085
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443397281373318, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d3dfb3dd5af7524a9470ec9c79dbd53, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1614361593
 GameObject:
   m_ObjectHideFlags: 0
