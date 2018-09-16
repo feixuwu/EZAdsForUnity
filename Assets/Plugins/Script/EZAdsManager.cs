@@ -141,6 +141,18 @@ public static class EZAdsManager
         return adObject.showBanner(isBottom);
     }
 
+    public static void hideBanner(enAdNetwork adNetwork)
+    {
+        if (!mAdsDic.ContainsKey(adNetwork))
+        {
+            Debug.LogError("showBanner invalid adnetwork:" + adNetwork);
+            return;
+        }
+
+        EZAdsInterface adObject = mAdsDic[adNetwork];
+        adObject.hideBanner();
+    }
+
     public static bool showInterstitial(enAdNetwork adNetwork)
     {
         if (!mAdsDic.ContainsKey(adNetwork))
