@@ -97,7 +97,7 @@ public static class EZAdsManager
     {
         if (!mAdsDic.ContainsKey(adNetwork))
         {
-            Debug.LogError("isBannerReady invalid adnetwork:" + adNetwork);
+            //Debug.LogError("isBannerReady invalid adnetwork:" + adNetwork);
             return false;
         }
 
@@ -109,7 +109,7 @@ public static class EZAdsManager
     {
         if (!mAdsDic.ContainsKey(adNetwork))
         {
-            Debug.LogError("isInterstitialReady invalid adnetwork:" + adNetwork);
+            //Debug.LogError("isInterstitialReady invalid adnetwork:" + adNetwork);
             return false;
         }
 
@@ -121,7 +121,7 @@ public static class EZAdsManager
     {
         if (!mAdsDic.ContainsKey(adNetwork))
         {
-            Debug.LogError("isRewardedVideoReady invalid adnetwork:" + adNetwork);
+            //Debug.LogError("isRewardedVideoReady invalid adnetwork:" + adNetwork);
             return false;
         }
 

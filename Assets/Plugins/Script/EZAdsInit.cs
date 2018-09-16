@@ -17,6 +17,8 @@ public class EZAdsInit : MonoBehaviour {
         gameObject.name = "EZAds";
         DontDestroyOnLoad(gameObject);
 
+#if UNITY_ANDROID && !UNITY_EDITOR
+
         EZAdsManager.registerAdObject(new EZAdmobAndroid() );
         EZAdsManager.initAdObject(Android.Admob.toCreateCtx() );
 
@@ -28,6 +30,7 @@ public class EZAdsInit : MonoBehaviour {
 
         EZAdsManager.registerAdObject(new EZUnityAndroid());
         EZAdsManager.initAdObject(Android.Unity.toCreateCtx());
+#endif
 
         EZAdsManager.onStart();
     }
